@@ -74,8 +74,12 @@ width: 100%;
     font-weight: 500;
     color: #23C2FD;   
 }
+.slider {
+    background-color: #eff1f5;
+}
 .slider__inner {
     height: 800px;
+    
 }
  
 
