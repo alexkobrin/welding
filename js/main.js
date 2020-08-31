@@ -58,7 +58,11 @@ $(document).ready(function() {
 			}, 1000);
 		});
 		return false;
-	});
+  });
+  
+  $(".burger-menu").click(function () {
+    $(this).toggleClass("menu-on");
+});
 
 });
 
