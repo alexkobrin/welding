@@ -62,7 +62,10 @@ $(document).ready(function() {
   
   $(".burger-menu").click(function () {
     $(this).toggleClass("menu-on");
+    $(".header__list").toggleClass("active");
 });
+
+ 
 
 });
 
