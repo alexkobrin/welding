@@ -6,9 +6,7 @@
 }
 
 @media (max-width: 710px) {
-    .header-menu__inner {
-        margin-left: 20px;
-    }
+    
    
     .header-menu__inner .burger-menu {
         display: block;
@@ -20,13 +18,17 @@
          display: block;
          transform: translateY(-200%);
          transition: all 0.3s;
+         
 
 
     }
     .header-menu__inner .header__list.active {
-        display: block;
+        max-width: 90%;
+       
+        margin: 0 auto;
         transition: all 0.5s;
         transform: translateY(0%);
+         
     }
 
     .header-menu {
@@ -36,19 +38,29 @@
     .header-menu__inner li {
         display: block;
         text-align: center;
-        background-color: #ffffff ;
+        background-color: #fff   ;
+        opacity: 0.9;
         
     }
     .header-menu__inner li a {
         width: 100%;
          
     }
-    .header-menu__inner li a:hover {
-        width: 100%;
-         
+    .header-menu__inner li a:hover   {
+        border-bottom: 2px solid #cc0000;
+        color:#cc0000 ;
+        transition: all 0.3s;
+    
     }
 }
 
+@media (max-width: 660px) {
+    .header-menu__inner {
+        margin: 0 30px  0 10px;
+       
+      }
+
+}
 
 
 
